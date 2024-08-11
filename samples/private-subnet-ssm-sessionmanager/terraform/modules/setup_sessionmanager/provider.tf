@@ -12,16 +12,3 @@ terraform {
     }
   }
 }
-
-provider "aws" {
-  region = "ap-northeast-1"
-
-  default_tags {
-    tags = {
-      Project = "Security"
-      Env     = "Prod"
-    }
-  }
-
-  profile = "security-account"
-}

@@ -1,5 +1,5 @@
 variable "system" {
-  type = string
+  type    = string
   default = "guardduty-notify-summary"
 }
 
