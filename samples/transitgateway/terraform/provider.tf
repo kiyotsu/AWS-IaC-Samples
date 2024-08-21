@@ -22,6 +22,4 @@ provider "aws" {
       Env     = "Prod"
     }
   }
-
-  profile = "security-account"
 }
